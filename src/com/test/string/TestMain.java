@@ -16,5 +16,9 @@ public class TestMain {
         System.out.println("a eqs c = "+a.equals(c));
         System.out.println("b eqs c = "+b.equals(c));
 
+        System.out.println("a eqs b = "+a == (b));
+        System.out.println("a eqs c = "+a == (c));
+        System.out.println("b eqs c = "+b == (c));
+
     }
 }
