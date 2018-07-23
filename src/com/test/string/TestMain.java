@@ -8,5 +8,17 @@ public class TestMain {
     public static void main(String[] args) {
         System.out.println("This is a String example");
 
+        String a = new String("Hello");
+        String b = "hello";
+        String c = new String("hello");
+
+        System.out.println("a eqs b = "+a.equals(b));
+        System.out.println("a eqs c = "+a.equals(c));
+        System.out.println("b eqs c = "+b.equals(c));
+
+        System.out.println("a eqs b = "+a == (b));
+        System.out.println("a eqs c = "+a == (c));
+        System.out.println("b eqs c = "+b == (c));
+
     }
 }
